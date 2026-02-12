@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para mi Xiomi</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="favicon.png">
+    <style>
+        body {
+          margin: 0;
+          padding: 20px;
+          font-family: Georgia, serif;
+          min-height: 100vh;
+          background-image: url("imagenes/fondo.jpeg");
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .carta {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(6px);
+            -webkit-backdrop-filter: blur(6px);
+            max-width: 700px;
+            width: 100%;
+            padding: 25px;
+            border-radius: 20px;
+            box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+            animation: aparecer 2s ease;
+        }
+
+        h1 {
+            text-align: center;
+            color:  #c94b7c;
+            margin-bottom: 30px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.7;
+            color: #333;
+            text-align: justify;
+        }
+
+        .firma {
+            margin-top: 30px;
+            text-align: right;
+            font-style: italic;
+            font-size: 18px;
+        }
+
+        @keyframes aparecer {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="carta">
+     <h1>Para ti, Xiomara ❤️</h1>
+
+     <p>
+        Ahora en internet c:  Mi niña creo que ya sabes lo mucho que te quiero 
+        pero es mucho mas que eso, aún recuerdo la pena que me dió pedirte que seas
+        mi pareja de promoción, recuerdo esos momentos que pasabamos despues de salir
+        del colegio(terrible), o cuando nos agarró la policía jeje.
+     </p>
+
+     <p>
+        Ya ha pasado tiempo, exactamente 15 meses y mi amor por ti sigue creciendo.
+        Y sigues siendo mandona quizá en el futuro igual, me imagino una vida contigo
+        a veces discutiendo, otras riendo pero siempre estando juntos, porque me enseñaste
+        que el amor también es equilibrio, paciencia(mucha) y complicidad.
+     </p>
+
+     <p>
+       Sueño con un mañana lleno de pequeños momentos: conversaciones, apoyo mutuo, metas
+       compartidas y un amor que crece sin límite. Si todo eso es contigo lo tomo sin pensar
+       aunque te enojes aveces, sé que detras de todo eso me quieres.
+     </p>
+
+     <div class="firma">
+        Con todo mi amor,<br>
+        Manty
+     </div>
+    </div>
+</body>
+</html>
